@@ -1,6 +1,29 @@
-@import './todoapp.scss';
-@import './todo.scss';
-@import './filter.scss';
+@use './todoapp.scss';
+@use './todo.scss';
+@use './filter.scss';
+@use './massage.scss';
+
+// iframe {
+//   display: none;
+// }
+
+// body {
+//   min-width: 230px;
+//   max-width: 550px;
+//   margin: 0 auto;
+// }
+
+// .notification {
+//   transition-property: opacity, min-height;
+//   transition-duration: 1s;
+//   min-height: 36px;
+// }
+
+// .notification.hidden {
+//   min-height: 0;
+//   opacity: 0;
+//   pointer-events: none;
+// }
 
 iframe {
   display: none;
@@ -11,16 +34,3 @@ body {
   max-width: 550px;
   margin: 0 auto;
 }
-
-.notification {
-  transition-property: opacity, min-height;
-  transition-duration: 1s;
-  min-height: 36px;
-}
-
-.notification.hidden {
-  min-height: 0;
-  opacity: 0;
-  pointer-events: none;
-}
-
